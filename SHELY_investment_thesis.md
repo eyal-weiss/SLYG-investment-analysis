@@ -273,14 +273,13 @@ The DCF produces conservative valuations because the Gordon Growth terminal valu
 
 ## Peer Comparison
 
-| Company | Focus | LTM Rev | Rev Growth | Gross Margin | EBIT Margin | Market Cap | EV/Sales | EV/EBIT | P/E |
-|---------|-------|---------|-----------|-------------|------------|-----------|---------|---------|-----|
-| **Shelly Group** | IoT devices | EUR 150M | 40% | 58% | 25% | EUR 1.04B | 6.9x | 27.5x | 41.9x |
-| Tuya Smart (TUYA) | IoT platform | USD 322M | 8% | ~47% | ~18% | USD 1.27B | 3.9x | ~22x | ~22x |
-| Legrand (LR.PA) | Elec. infrastructure | EUR 8.6B | 3% | ~52% | ~17% | EUR 26B | ~3.0x | ~18x | ~24x |
-| Schneider Electric | Energy mgmt | EUR 36B | 6% | ~42% | ~17% | EUR 130B | ~3.6x | ~21x | ~28x |
-| Assa Abloy | Access solutions | SEK 140B | 4% | ~42% | ~15% | SEK 330B | ~3.6x | ~24x | ~28x |
-| Ring/Blink (Amazon) | Smart home | N/A | N/A | N/A | N/A | (subsidiary) | N/A | N/A | N/A |
+| Company | Rev Growth | GM | EBIT Margin | EV/Sales | EV/EBIT | P/E |
+|---------|-----------|-----|------------|---------|---------|-----|
+| **Shelly Group** | 40% | 58% | 25% | 6.9x | 27.5x | 41.9x |
+| Tuya Smart | 8% | ~47% | ~18% | 3.9x | ~22x | ~22x |
+| Legrand | 3% | ~52% | ~17% | ~3.0x | ~18x | ~24x |
+| Schneider Electric | 6% | ~42% | ~17% | ~3.6x | ~21x | ~28x |
+| Assa Abloy | 4% | ~42% | ~15% | ~3.6x | ~24x | ~28x |
 
 Shelly trades at a premium to mature industrial peers on EV/Sales, but this is justified by its 40% revenue growth rate vs. single-digit growth for large-caps. On a PEG-adjusted basis (EV/EBIT divided by EBIT growth rate), Shelly is actually cheaper than most peers. The P/E of 41.9x appears high but is based on reported net income that includes non-cash management share program accruals; on adjusted earnings (EPS EUR 1.77), the forward P/E is ~25x.
 
