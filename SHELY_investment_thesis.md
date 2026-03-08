@@ -279,6 +279,7 @@ The DCF produces conservative valuations because the Gordon Growth terminal valu
 | Tuya Smart | 8% | ~47% | ~18% | 3.9x | ~22x | ~22x |
 | Legrand | 3% | ~52% | ~17% | ~3.0x | ~18x | ~24x |
 | Schneider Electric | 6% | ~42% | ~17% | ~3.6x | ~21x | ~28x |
+| Plejd | 18% | ~62% | ~24% | ~14x | ~58x | ~74x |
 | Assa Abloy | 4% | ~42% | ~15% | ~3.6x | ~24x | ~28x |
 
 Shelly trades at a premium to mature industrial peers on EV/Sales, but this is justified by its 40% revenue growth rate vs. single-digit growth for large-caps. On a PEG-adjusted basis (EV/EBIT divided by EBIT growth rate), Shelly is actually cheaper than most peers. The P/E of 41.9x appears high but is based on reported net income that includes non-cash management share program accruals; on adjusted earnings (EPS EUR 1.77), the forward P/E is ~25x.
