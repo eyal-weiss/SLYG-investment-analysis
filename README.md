@@ -16,13 +16,15 @@ Independent investment analysis of Shelly Group SE, a Bulgarian-headquartered Io
 
 Shelly has compounded revenue at ~45% CAGR over 2022-2025 (EUR 47.6M to EUR 149.7M), maintaining ~25% EBIT margins and benefiting from Bulgaria's 10% corporate tax rate. The company has sold 30M+ cumulative devices with 2.7M cloud users.
 
-### DCF Valuation (EUR, diluted)
+### DCF Valuation (EUR, diluted) — 15-year, three-phase DCF
 
-| Scenario | Implied Price | 2030E Revenue | 2030E EBIT |
-|----------|--------------|---------------|------------|
-| Bull     | EUR 77.51    | EUR 594M      | EUR 184M   |
-| Base     | EUR 52.52    | EUR 419M      | EUR 117M   |
-| Bear     | EUR 31.10    | EUR 279M      | EUR 63M    |
+| Scenario | Implied Price | Upside vs EUR 57.60 | 2040E Revenue | Terminal EBIT margin |
+|----------|--------------|--------------------|---------------|---------------------|
+| Bull     | EUR 179.11   | +211%              | EUR 1,851M    | 36.1%               |
+| Base     | EUR 92.38    | +60%               | EUR 1,034M    | 31.1%               |
+| Bear     | EUR 36.72    | −36%               | EUR 443M      | 25.5%               |
+
+Probability-weighted fair value (25/50/25 Bull/Base/Bear): **~EUR 100 (+74%)**.
 
 ### Key Investment Pillars
 
@@ -32,9 +34,10 @@ Shelly has compounded revenue at ~45% CAGR over 2022-2025 (EUR 47.6M to EUR 149.
 
 ## Methodology
 
-- 5-year DCF with Gordon Growth terminal value (WACC 10.0%, terminal growth 3.0%)
+- **15-year, three-phase DCF** (detailed 2026-2030, transition 2031-2035, maturation 2036-2040) with a Damodaran-convergence terminal value (WACC 10.0%, terminal growth 3.0%, terminal ROIC 15-24%). Chosen over a 5-year DCF because the latter placed ~80% of value in a terminal computed off a cash flow still growing ~17% — truncating a decade of compounding.
+- SBC-expensed unlevered FCF (NOPAT on reported EBIT; equity ÷ current diluted shares)
 - Bottom-up operating model anchored in device shipment growth, ASP trends, and cloud/subscription revenue
-- Cross-checked with EV/EBIT and P/E exit multiple valuations
+- Cross-checked with a year-5 (2030) EV/EBITDA and P/E exit-multiple *floor* (interim FCF included), plus an implied terminal EV/EBITDA sanity check
 - Scenario analysis across bull, base, and bear cases
 
 ## Data Sources

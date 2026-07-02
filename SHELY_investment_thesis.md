@@ -1,6 +1,7 @@
 # Shelly Group SE (BSE: SLYG / OTC: SHELY) — Investment Thesis
 
 *March 2026 | Based on FY2025 financial results and bottom-up financial model*
+*Valuation methodology revised July 2026: 5-year → 15-year three-phase DCF (see DCF Valuation Methodology).*
 
 ---
 
@@ -8,13 +9,15 @@
 
 Shelly Group SE is a Bulgarian-headquartered IoT company that designs, manufactures (via contract manufacturing in China), and distributes smart home devices — primarily compact Wi-Fi/Bluetooth relays, sensors, smart plugs, and energy monitoring solutions — sold under the "Shelly" brand in over 130 countries. The company has compounded revenue at ~45% CAGR over 2022-2025, growing from EUR 47.6M to EUR 149.7M, while maintaining EBIT margins near 25% and benefiting from Bulgaria's 10% corporate tax rate.
 
-Our bottom-up model, anchored in device shipment growth, average selling price trends, and emerging cloud/subscription revenue, yields the following DCF-implied share prices:
+Our bottom-up model, anchored in device shipment growth, average selling price trends, and emerging cloud/subscription revenue, yields the following DCF-implied share prices. The valuation uses a **15-year, three-phase DCF** — the historical ~45% growth is faded gradually to a mature, GDP-like rate before the Gordon terminal begins — because a 5-year window structurally under-values a company with a decade-plus of compounding ahead (it placed ~80% of value in a terminal computed off a cash flow still growing ~17%):
 
-| Scenario | Implied Price | 2030E Revenue | 2030E EBIT | Rev CAGR (25-30) |
-|----------|--------------|--------------|------------|-----------------|
-| **Bull** | **EUR 77.51** | EUR 594M | EUR 184M | 31.7% |
-| **Base** | **EUR 52.52** | EUR 419M | EUR 117M | 22.9% |
-| **Bear** | **EUR 31.10** | EUR 279M | EUR 63M | 13.2% |
+| Scenario | Implied Price | Upside | 2040E Revenue | Rev CAGR (25-40) | Terminal EBIT margin |
+|----------|--------------|--------|--------------|-----------------|---------------------|
+| **Bull** | **EUR 179.11** | +211% | EUR 1,851M | 18.3% | 36.1% |
+| **Base** | **EUR 92.38** | +60% | EUR 1,034M | 13.7% | 31.1% |
+| **Bear** | **EUR 36.72** | −36% | EUR 443M | 7.5% | 25.5% |
+
+At a 25/50/25 (Bull/Base/Bear) weighting, the probability-weighted fair value is **~EUR 100** (+74% vs the EUR 57.60 price) — the distribution is right-skewed because the bull runway is long. At the current price the market is effectively discounting a ~13% WACC (see sensitivity table), aggressive for a net-cash, 25%-EBIT-margin compounder.
 
 The thesis rests on three pillars: (1) a massive and underpenetrated smart home TAM with Shelly's differentiated open-ecosystem, low-price-point product strategy capturing share from incumbent walled-garden players, (2) a nascent but high-potential cloud/subscription revenue stream (Shelly Cloud, premium subscriptions, B2B services) that could transform the margin profile from hardware-like to platform-like over time, and (3) a fortress balance sheet with net cash, low capex requirements, and a structurally advantaged 10% Bulgarian corporate tax rate.
 
@@ -112,51 +115,51 @@ Shelly has launched ShellyX, a white-label platform offering its proprietary chi
 
 ### Bull Case: Accelerating Growth, Successful US Expansion
 
-**Assumptions:** Revenue growth 35%+ in 2026 (above management guidance), decelerating to 20% by 2030, gross margin improving to 61%, EBIT margin reaching 31%, successful US market penetration, subscription revenue reaching 5% of total by 2030.
+**Assumptions:** Device-shipment growth of 35% in 2026 fading through the three phases to ~4.5% by 2040; ASP rising modestly; gross margin improving to 60%; EBIT margin reaching ~36% at maturity on operating leverage and cloud mix; successful US market penetration; subscription revenue reaching ~12% of total by 2040. Terminal ROIC 24%.
 
-**Narrative:** Smart home adoption accelerates globally. Shelly's Matter-compatible Gen4/Gen5 products win significant US market share. The professional installer network reaches 15,000+. Cloud subscription conversion improves to 5%+. A dual listing on a major exchange attracts institutional capital.
+**Narrative:** Smart home adoption accelerates globally. Shelly's Matter-compatible Gen4/Gen5 products win significant US market share. The professional installer network reaches 15,000+. Cloud subscription conversion improves to 5%+. A dual listing on a major exchange attracts institutional capital, and the device-to-cloud flywheel materially lifts the terminal margin.
 
-| Metric | 2026E | 2028E | 2030E |
-|--------|-------|-------|-------|
-| Revenue | EUR 217M | EUR 375M | EUR 594M |
-| EBIT (Adj.) | EUR 55M | EUR 107M | EUR 184M |
-| EBIT Margin | 25.2% | 28.6% | 31.0% |
-| Net Income | EUR 45M | EUR 94M | EUR 165M |
-| Devices (annual, M) | 14.9M | 23.8M | 34.8M |
+| Metric | 2026E | 2030E | 2035E | 2040E |
+|--------|-------|-------|-------|-------|
+| Revenue | EUR 216M | EUR 595M | EUR 1,283M | EUR 1,851M |
+| EBIT (Adj.) | EUR 54M | EUR 182M | EUR 442M | EUR 668M |
+| EBIT Margin | 25.2% | 30.5% | 34.4% | 36.1% |
+| Net Income | EUR 45M | EUR 162M | EUR 396M | EUR 600M |
+| Devices (annual, M) | 14.9M | 36.8M | 70.7M | 95.1M |
 
-**DCF Implied Price: EUR 77.51**
+**DCF Implied Price: EUR 179.11**
 
 ### Base Case: Steady Execution, Moderate US Traction
 
-**Assumptions:** Revenue growth ~34% in 2026 (in line with management guidance midpoint of EUR 200M), decelerating to 15% by 2030, gross margin stable at 57-59%, EBIT margin 25-28%, moderate US progress, subscription revenue reaching 3% of total by 2030.
+**Assumptions:** Revenue growth ~35% in 2026 (in line with management guidance midpoint of EUR 200M), device-shipment growth fading through the three phases to ~4% by 2040; gross margin stable-to-rising toward 58.5%; EBIT margin expanding from 25% today to ~31% at maturity via operating leverage; moderate US progress; subscription revenue reaching ~8% of total by 2040. Terminal ROIC 20%.
 
-**Narrative:** Shelly continues executing its European growth playbook. 2026 revenue tracks management guidance of EUR 195-205M (midpoint EUR 200M). US expansion is gradual. The professional channel grows steadily. Cloud monetization progresses but remains a small contributor. Margins remain healthy.
+**Narrative:** Shelly continues executing its European growth playbook. 2026 revenue tracks management guidance of EUR 195-205M (midpoint EUR 200M). US expansion is gradual. The professional channel grows steadily. Cloud monetization progresses but remains a modest contributor. Margins expand steadily as the business scales.
 
-| Metric | 2026E | 2028E | 2030E |
-|--------|-------|-------|-------|
-| Revenue | EUR 201M | EUR 299M | EUR 419M |
-| EBIT (Adj.) | EUR 50M | EUR 79M | EUR 117M |
-| EBIT Margin | 24.7% | 26.3% | 28.0% |
-| Net Income | EUR 40M | EUR 68M | EUR 104M |
-| Devices (annual, M) | 14.1M | 20.3M | 27.3M |
+| Metric | 2026E | 2030E | 2035E | 2040E |
+|--------|-------|-------|-------|-------|
+| Revenue | EUR 202M | EUR 448M | EUR 787M | EUR 1,034M |
+| EBIT (Adj.) | EUR 50M | EUR 123M | EUR 235M | EUR 321M |
+| EBIT Margin | 24.7% | 27.4% | 29.9% | 31.1% |
+| Net Income | EUR 40M | EUR 109M | EUR 210M | EUR 288M |
+| Devices (annual, M) | 14.1M | 28.9M | 46.9M | 58.8M |
 
-**DCF Implied Price: EUR 52.52**
+**DCF Implied Price: EUR 92.38**
 
 ### Bear Case: Growth Deceleration, Margin Pressure
 
-**Assumptions:** Revenue growth ~20% in 2026 (below management guidance), decelerating to 8% by 2030, gross margin compressing to 55-56%, EBIT margin declining to 22-23%, US expansion stalls, limited subscription uptake.
+**Assumptions:** Revenue growth ~24% in 2026 (below management guidance), device-shipment growth decelerating quickly to ~2% by 2040; flat ASP; gross margin compressing to 55%; EBIT margin holding near 23-25% (limited operating leverage as competition caps pricing); US expansion stalls; limited subscription uptake. Terminal ROIC 15%.
 
-**Narrative:** Smart home market growth disappoints. 2026 revenue misses the low end of management guidance (EUR 195M). Competition from Chinese manufacturers (Tuya, Sonoff) intensifies, compressing margins. Matter standardization benefits larger players more than Shelly. US expansion consumes resources without adequate returns. The stock remains trapped on illiquid exchanges.
+**Narrative:** Smart home market growth disappoints. 2026 revenue misses the low end of management guidance. Competition from Chinese manufacturers (Tuya, Sonoff) intensifies, compressing margins. Matter standardization benefits larger players more than Shelly. US expansion consumes resources without adequate returns. The stock remains trapped on illiquid exchanges, and growth fades to GDP-like rates well before 2040.
 
-| Metric | 2026E | 2028E | 2030E |
-|--------|-------|-------|-------|
-| Revenue | EUR 179M | EUR 232M | EUR 279M |
-| EBIT (Adj.) | EUR 40M | EUR 53M | EUR 63M |
-| EBIT Margin | 22.6% | 22.9% | 22.8% |
-| Net Income | EUR 31M | EUR 44M | EUR 54M |
-| Devices (annual, M) | 13.2M | 17.0M | 20.2M |
+| Metric | 2026E | 2030E | 2035E | 2040E |
+|--------|-------|-------|-------|-------|
+| Revenue | EUR 186M | EUR 289M | EUR 382M | EUR 443M |
+| EBIT (Adj.) | EUR 42M | EUR 67M | EUR 93M | EUR 113M |
+| EBIT Margin | 22.6% | 23.2% | 24.5% | 25.5% |
+| Net Income | EUR 32M | EUR 58M | EUR 82M | EUR 100M |
+| Devices (annual, M) | 13.2M | 20.2M | 25.9M | 29.4M |
 
-**DCF Implied Price: EUR 31.10**
+**DCF Implied Price: EUR 36.72**
 
 ---
 
@@ -164,110 +167,101 @@ Shelly has launched ShellyX, a white-label platform offering its proprietary chi
 
 ### Approach
 
-We use a 5-year Discounted Cash Flow with a Gordon Growth terminal value. Key parameters:
+We use a **15-year, three-phase Discounted Cash Flow** with a Damodaran-convergence terminal value. The three phases — detailed bottom-up hyper-growth (2026-2030), transition (2031-2035), and maturation (2036-2040) — let the historical ~45% growth fade gradually to a GDP-like terminal rate *before* the Gordon terminal begins. This directly addresses the flaw in a 5-year model for a long-runway compounder: the old 5-year DCF placed ~80% of enterprise value in a terminal value computed off a 2030 cash flow still growing ~17%, effectively pricing a mid-sprint company as if it were mature. Key parameters:
 
 | Parameter | Value | Rationale |
 |-----------|-------|-----------|
+| Horizon | 15 years (2026-2040) | Explicit fade of a long-runway compounder; faded faster than a software analog to respect hardware cyclicality / ASP commoditization (no large software peer sustained 30%+ for >~7-8 years from peak) |
 | WACC | 10.0% | CAPM: 4.0% risk-free + 1.27 beta x 5.5% ERP. Small-cap/liquidity premium +1.0%. Minimal debt. Comparable to Montega AG's 9.13% WACC with a modest conservatism premium. |
-| Terminal Growth | 3.0% | Reflects long-term nominal GDP growth; smart home is a structural growth market |
-| FCF Definition | EBIT x (1 - Tax Rate) + D&A - Capex - Delta WC | Bulgaria 10% corp tax rate applied |
+| Terminal Growth | 3.0% | Long-term nominal GDP; applied only at year 15 (2040), after growth has faded to ~4% |
+| Terminal Value | Damodaran convergence | `TV = NOPAT₂₀₄₀ × (1+g) × (1 − g/ROIC_term) / (WACC − g)`; terminal ROIC 20% (base) ties reinvestment to a sustainable return rather than carrying growth-era capex into perpetuity |
+| FCF Definition | Reported EBIT × (1 − 10%) + D&A − Capex − ΔWC | **SBC-expensed**: NOPAT on EBIT *after* management SBC; SBC is not added back, and equity value is divided by the current 18.9M diluted share count (no extra dilution multiplier) |
 
-### Base Case FCF Projections (EUR M)
+### Base Case FCF Projections (EUR M, selected years)
 
-FCF is calculated as NOPAT (EBIT adj. x (1 - 10% tax)) + D&A - Capex - Delta Working Capital.
+FCF is SBC-expensed unlevered free cash flow: NOPAT (reported EBIT × (1 − 10% tax)) + D&A − Capex − ΔWorking Capital.
 
-| Year | EBIT (Adj.) | NOPAT | D&A | Capex | Delta WC | FCF |
-|------|------------|-------|-----|-------|----------|-----|
-| 2026 | 49.7 | 44.7 | 3.6 | -5.0 | -16.3 | 27.0 |
-| 2027 | 62.8 | 56.6 | 4.5 | -6.2 | -13.2 | 41.7 |
-| 2028 | 78.7 | 70.9 | 5.4 | -7.5 | -14.2 | 54.5 |
-| 2029 | 97.4 | 87.6 | 6.4 | -8.9 | -16.3 | 68.8 |
-| 2030 | 117.4 | 105.6 | 7.5 | -10.5 | -17.4 | 85.3 |
+| Year | EBIT (rep.) | NOPAT | D&A | Capex | ΔWC | FCF |
+|------|------------|-------|-----|-------|-----|-----|
+| 2026 | 44.9 | 40.4 | 3.6 | -5.1 | -16.6 | 22.4 |
+| 2028 | 78.4 | 70.5 | 5.7 | -7.8 | -16.7 | 51.6 |
+| 2030 | 120.8 | 108.7 | 8.1 | -11.2 | -19.5 | 86.1 |
+| 2032 | 167.2 | 150.5 | 10.7 | -14.8 | -20.2 | 126.2 |
+| 2035 | 233.8 | 210.4 | 14.2 | -19.7 | -17.3 | 187.6 |
+| 2038 | 288.1 | 259.3 | 17.0 | -23.6 | -13.8 | 238.9 |
+| 2040 | 319.6 | 287.6 | 18.6 | -25.8 | -12.0 | 268.4 |
 
-Terminal value accounts for ~80% of enterprise value, reflecting the long growth runway ahead. 2026 EBIT of EUR 50M aligns with management guidance of EUR 47-52M (midpoint EUR 49.5M).
+With the extended horizon, terminal value falls to **~50% of enterprise value** (from ~80% in the 5-year model), so the valuation is now driven by explicit, reason-about-able cash flows rather than a single perpetuity assumption. The implied terminal EV/EBITDA is **10.6x** — reasonable-to-conservative for a mature, high-margin, 3%-growth business. 2026 EBIT of EUR 50M aligns with management guidance of EUR 47-52M (midpoint EUR 49.5M).
 
 ### Enterprise Value Bridge (Base Case)
 
 | Component | EUR M |
 |-----------|-------|
-| PV of FCFs (2026-2030) | EUR 200 |
-| PV of Terminal Value | EUR 779 |
-| **Enterprise Value** | **EUR 979** |
+| PV of FCFs (2026-2040) | EUR 871 |
+| PV of Terminal Value | EUR 861 |
+| **Enterprise Value** | **EUR 1,732** |
 | + Net Cash | EUR 14 |
-| **Equity Value** | **EUR 993** |
+| **Equity Value** | **EUR 1,746** |
 | Diluted Shares (M) | 18.9 |
-| **Implied Price** | **EUR 52.52** |
+| **Implied Price** | **EUR 92.38** |
 
 ### Price Sensitivity (WACC vs. Terminal Growth)
 
 |  | TG 2.0% | TG 2.5% | TG 3.0% | TG 3.5% | TG 4.0% |
 |------|---------|---------|---------|---------|---------|
-| **WACC 8%** | EUR 64.18 | EUR 69.20 | EUR 75.23 | EUR 82.60 | EUR 91.82 |
-| **WACC 9%** | EUR 54.36 | EUR 57.87 | EUR 61.97 | EUR 66.81 | EUR 72.63 |
-| **WACC 10%** | EUR 47.02 | EUR 49.59 | **EUR 52.52** | EUR 55.91 | EUR 59.86 |
-| **WACC 11%** | EUR 41.33 | EUR 43.27 | EUR 45.46 | EUR 47.94 | EUR 50.77 |
-| **WACC 12%** | EUR 36.80 | EUR 38.31 | EUR 39.98 | EUR 41.86 | EUR 43.97 |
-| **WACC 13%** | EUR 33.10 | EUR 34.30 | EUR 35.62 | EUR 37.07 | EUR 38.69 |
-| **WACC 14%** | EUR 30.04 | EUR 31.00 | EUR 32.06 | EUR 33.22 | EUR 34.49 |
+| **WACC 8%** | EUR 128.61 | EUR 133.45 | EUR 139.22 | EUR 146.25 | EUR 155.00 |
+| **WACC 9%** | EUR 105.58 | EUR 108.43 | EUR 111.75 | EUR 115.65 | EUR 120.31 |
+| **WACC 10%** | EUR 88.61 | EUR 90.38 | **EUR 92.38** | EUR 94.67 | EUR 97.33 |
+| **WACC 11%** | EUR 75.68 | EUR 76.80 | EUR 78.04 | EUR 79.45 | EUR 81.04 |
+| **WACC 12%** | EUR 65.54 | EUR 66.26 | EUR 67.06 | EUR 67.94 | EUR 68.93 |
+| **WACC 13%** | EUR 57.41 | EUR 57.89 | EUR 58.41 | EUR 58.98 | EUR 59.60 |
+| **WACC 14%** | EUR 50.79 | EUR 51.11 | EUR 51.45 | EUR 51.82 | EUR 52.22 |
 
-The valuation is positive across the entire sensitivity range. At a punitive 14% WACC and conservative 2% terminal growth, the implied price of EUR 30.04 still represents meaningful equity value. At our base-case WACC of 10% and 3% terminal growth, the implied price of EUR 52.52 is ~9% below the current EUR 57.60 price. At Montega's 9.13% WACC, the implied price rises to EUR 60-62, above the current price. Conversely, at 8% WACC and 3.5% terminal growth, the implied price reaches EUR 82.60.
+The valuation is above the current EUR 57.60 price across nearly the entire sensitivity range. At our base-case 10% WACC and 3% terminal growth, the implied price is EUR 92.38 (+60%). Notably, the current price is only reached at a **~13% WACC** — an aggressive discount rate for a net-cash business with 25% EBIT margins and a decade-plus runway — which is effectively what the market is pricing in. At Montega's 9.13% WACC the model implies ~EUR 105-110.
 
 ---
 
-## Exit Multiple Valuation (2030E)
+## Year-5 (2030) Exit-Multiple Cross-Check
 
-As a cross-check to the DCF, we value Shelly using exit multiples applied to 2030E financials, discounted back to present value at 10% WACC.
+As a cross-check to the 15-year DCF, we value Shelly on a "sell-in-2030" basis: a 2030E exit metric × multiple, discounted 5 years to present at 10% WACC, **plus the PV of the 2026-2030 interim free cash flows**. Because this deliberately discards the post-2030 runway — the very decade the DCF captures — it reads as a **floor**, not a co-equal method. The DCF remains primary; the widening gap between the two *is* the duration finding (more of Shelly's intrinsic value sits in distant years the longer the runway).
 
-**2030E financials by scenario:**
+### 1. EV/EBITDA Exit Multiple (on 2030E EBITDA)
 
-| Metric | Bull | Base | Bear |
-|--------|------|------|------|
-| EBIT (Adj.) | EUR 184M | EUR 117M | EUR 63M |
-| Net Income | EUR 165M | EUR 104M | EUR 54M |
+Enterprise value = 2030E EBITDA × multiple, plus EUR 14M net cash; discounted to present and augmented by interim FCF. Peer context: IoT hardware trades ~10-18x EV/EBITDA; platform/SaaS hybrids higher.
 
-*Discount factor: 5 years at 10% WACC = 1.61x. All "PV Today" prices reflect the 2030 exit value discounted to present.*
+| EV/EBITDA | Bull | Base | Bear |
+|-----------|------|------|------|
+| **12x** | EUR 89.52 | EUR 62.12 | EUR 35.72 |
+| **15x** | EUR 108.47 | EUR 75.02 | EUR 42.90 |
+| **18x** | EUR 127.42 | EUR 87.92 | EUR 50.08 |
+| **20x** | EUR 140.06 | EUR 96.52 | EUR 54.87 |
 
-### 1. EV/EBIT Exit Multiple
+The Base 15-year DCF of EUR 92.38 corresponds to roughly a **19x** year-5 EV/EBITDA exit — credible for a company still growing ~18% in 2030. At a more conservative 15x, the year-5 floor of EUR 75 already exceeds the current price.
 
-Enterprise value = 2030E EBIT x multiple, plus EUR 14M net cash, divided by 18.9M diluted shares. Peer context: IoT hardware companies trade at 15-25x EBIT; platform/SaaS hybrids at 25-40x.
+### 2. P/E Exit Multiple (on 2030E net income)
 
-**Implied share price (present value) by scenario and exit multiple:**
-
-| EV/EBIT | Bull | Base | Bear |
-|---------|------|------|------|
-| **15x** | EUR 91.21 | EUR 58.30 | EUR 31.69 |
-| **20x** | EUR 121.47 | EUR 77.58 | EUR 42.11 |
-| **25x** | EUR 151.72 | EUR 96.86 | EUR 52.53 |
-| **30x** | EUR 181.98 | EUR 116.14 | EUR 62.94 |
-
-At 20x EV/EBIT — reasonable for a profitable, growing IoT company with an emerging software revenue stream — the Base case implies EUR 77.58 today, above the DCF-derived EUR 52.52 (reflecting the conservatism of the Gordon Growth terminal value assumption).
-
-### 2. P/E Exit Multiple
-
-Equity value = 2030E Net Income x multiple, divided by 18.9M diluted shares.
-
-**Implied share price (present value) by scenario and exit multiple:**
+Equity value = 2030E Net Income × multiple, discounted to present, plus interim FCF; ÷ 18.9M diluted shares.
 
 | P/E | Bull | Base | Bear |
 |-----|------|------|------|
-| **20x** | EUR 108.33 | EUR 68.24 | EUR 35.72 |
-| **25x** | EUR 135.41 | EUR 85.29 | EUR 44.65 |
-| **30x** | EUR 162.49 | EUR 102.35 | EUR 53.58 |
-| **35x** | EUR 189.57 | EUR 119.41 | EUR 62.51 |
+| **20x** | EUR 119.75 | EUR 81.52 | EUR 44.44 |
+| **25x** | EUR 146.37 | EUR 99.38 | EUR 53.91 |
+| **30x** | EUR 172.99 | EUR 117.24 | EUR 63.38 |
+| **35x** | EUR 199.61 | EUR 135.11 | EUR 72.86 |
 
-At 25x P/E — reasonable for a company growing earnings at 25%+ — the Base case implies EUR 85.29, above the DCF value, reflecting the P/E method's sensitivity to the low Bulgarian tax rate.
+At 25x P/E — reasonable for a company still growing earnings at 20%+, aided by the low Bulgarian tax rate — the Base case implies EUR 99, in line with the 15-year DCF.
 
 ### Triangulation Summary
 
 | Method | Bull | Base | Bear |
 |--------|------|------|------|
-| DCF (Gordon Growth) | EUR 77.51 | EUR 52.52 | EUR 31.10 |
-| EV/EBIT exit at 20x | EUR 121.47 | EUR 77.58 | EUR 42.11 |
-| P/E exit at 25x | EUR 135.41 | EUR 85.29 | EUR 44.65 |
+| **15-yr DCF (primary)** | **EUR 179.11** | **EUR 92.38** | **EUR 36.72** |
+| EV/EBITDA year-5 exit at 15x (floor) | EUR 108.47 | EUR 75.02 | EUR 42.90 |
+| P/E year-5 exit at 25x (floor) | EUR 146.37 | EUR 99.38 | EUR 53.91 |
 
-The DCF produces conservative valuations because the Gordon Growth terminal value (3% perpetuity) does not fully capture the upside of a 20%+ growth company. The exit multiple approaches, which assume the market values Shelly as a mature-but-growing company in 2030, imply significantly higher prices. The Base case range of EUR 53-85 brackets the current trading level of EUR 57.60, suggesting the stock is approximately fairly valued at the lower end of estimates with meaningful upside if the company executes to plan. The Bull case at 20x EV/EBIT implies EUR 121, more than double the current price.
+The 15-year DCF is now the primary method; the year-5 exit multiples are conservative floors that discard the post-2030 runway (hence they read below the DCF). The Base case brackets from a EUR 75 year-5 floor to the EUR 92 DCF, comfortably above the EUR 57.60 trading level, indicating meaningful upside if the company executes. The Bull case reaches EUR 179 on the DCF; the Bear DCF of EUR 37 (−36%) frames the downside.
 
-**Analyst comparison:** Montega AG (WACC 9.13%) has a Buy rating with a EUR 61 price target, while Berenberg has a Buy rating with a EUR 73 target (raised to EUR 73 after Q4 2025 results). Our DCF Base case (EUR 52.52) is below these targets, reflecting our more conservative 10% WACC. At Montega's 9% WACC, our model implies EUR 62 (see sensitivity table), closely matching their target.
+**Analyst comparison:** Montega AG (WACC 9.13%) has a Buy rating with a EUR 61 price target, and Berenberg has a Buy rating with a EUR 73 target. Both are 5-year DCF-style targets; our Base case (EUR 92) sits above them precisely *because* of the extended horizon — a 15-year explicit fade captures compounding that a 5-year window truncates into the terminal value. This gap is expected and is itself the central finding: the market (and short-horizon sell-side models) are effectively pricing Shelly at a ~13% discount rate, under-weighting the durability of the growth runway. At Montega's 9.13% WACC our model implies ~EUR 105-110.
 
 ---
 
@@ -312,7 +306,7 @@ Shelly trades at a premium to mature industrial peers on EV/Sales, but this is j
 
 Shelly Group is a rare European growth story: a profitable, founder-led IoT company growing revenue at 40%, generating 25% EBIT margins, and taxed at only 10% — all while operating in the structurally growing smart home market. The company's open-ecosystem approach, aggressive product innovation (now spanning Gen4 with Matter/Thread support), and rapidly expanding professional installer network create durable competitive advantages. Management has guided for EUR 195-205M in 2026 revenue and EUR 47-52M in EBIT, representing 30-37% top-line growth — a trajectory our Base case tracks closely.
 
-Our DCF Base case implies EUR 52.52/share, while exit multiple approaches (EV/EBIT at 20x, P/E at 25x) imply EUR 78-85 in the Base case, bracketing the current EUR 57.60 price. The Bear DCF of EUR 31.10 represents ~46% downside risk, while the Bull case exit multiples reach EUR 121-135, representing 110-135% upside. The wide range reflects the sensitivity to terminal value methodology — the DCF's 3% perpetuity growth assumption is conservative for a company growing at 20%+, while exit multiples may overstate value if growth slows faster than projected. Sell-side consensus (Montega EUR 61, Berenberg EUR 73) falls within our DCF-to-exit-multiple range, reinforcing the plausibility of the estimates.
+Our 15-year, three-phase DCF Base case implies **EUR 92.38/share (+60%)**, with a probability-weighted fair value of **~EUR 100 (+74%)** on a 25/50/25 weighting. The Bull DCF reaches EUR 179 (+211%) and the Bear DCF is EUR 37 (−36%), framing an asymmetric, right-skewed payoff. Year-5 exit-multiple floors (EUR 75 at 15x EV/EBITDA, EUR 99 at 25x P/E in the Base) corroborate the DCF from below. The prior 5-year DCF implied only EUR 52.52 — appearing to make the stock fairly-to-over-valued — but that framework mechanically truncated a decade of compounding into a terminal value computed off a still-fast-growing 2030 cash flow (~80% of EV). Extending to an explicit 15-year fade, which is how a long-runway compounder should be valued, is what converts the call from "fairly valued" to "materially undervalued." At EUR 57.60 the market is effectively applying a ~13% discount rate to a net-cash, 25%-margin business — the mispricing is one of *growth duration*, not fundamentals. Sell-side targets (Montega EUR 61, Berenberg EUR 73) sit below our Base precisely because they use short-horizon models.
 
 The right mental model is not "Bulgarian hardware company on an obscure exchange" but rather "Europe's leading open-ecosystem IoT platform with a device-to-cloud flywheel, 25% EBIT margins, a 10% tax rate, and a 40% growth rate — with valuation upside gated primarily by listing venue and liquidity rather than business fundamentals."
 
